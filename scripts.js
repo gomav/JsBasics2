@@ -18,16 +18,21 @@ var animals = ['Dog', 'Giraffe', 'Cat'];
 
 //Array of buildings
 var buildings = new Array(0);
-    buildings = 'House';
-    buildings = 'Barn';
-    buildings = 'Garage';
+    buildings[0] = 'House';
+    buildings[1] = 'Barn';
+    buildings[2] = 'Garage';
 
 //Get length of an Array by using the 'length' function
 console.log(c.length);
 
-//this block of code will loop over an Array and display the Array elements in
+//This block of code will loop over an Array and display the Array elements in
 //the console
 console.log('loop over animals array');
-for (var i = 0; i < animals.length; i++){
+    for (var i = 0; i < animals.length; i++){
     console.log(animals[i]);
 }
+
+console.log('loop over buildings array');
+    for (var i = 0; i <buildings.length; i++){
+        console.log(buildings[i]);
+    }
