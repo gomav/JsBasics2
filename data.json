@@ -1,0 +1,4 @@
+var myObject = {
+    name: 'Manny',
+    phone: '888.888.8888'
+};
